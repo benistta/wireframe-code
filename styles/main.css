@@ -101,12 +101,29 @@ header nav ul li a {
 
 
 .social-proof {
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
-    background:#ccc;
-    margin-bottom: 10px;
+    background-color: #8f9dd3;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-   
-   
+}
+.testimonials {
+    font-size: 18px;
+    font-family:'normal', cursive;
+    color: #333;
+    padding: 20px;
+}
+
+.testimonials blockquote {
+    margin-bottom: 20px;
+}
+
+.testimonials person {
+    font-size: 15px;
+    color: #666;
+    font-style: normal;
 }
   
 .cta button {
@@ -137,5 +154,6 @@ footer {
 
 .contact-info p {
     margin-top: 10px;
+    align-items: center;
 }
 

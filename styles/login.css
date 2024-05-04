@@ -10,12 +10,13 @@ form {
 #image {
     position: relative;
     top: 360px;
-    left: 610px;
+    left: 710px;
     width: 60px; 
     height: 60px; 
     z-index: 1;
     border-radius: 50%;
-}
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  }
 
 .container {
     position: relative;
@@ -36,12 +37,11 @@ body {
 }
   
 form {
-    background-color:#ccc;
+    background-color: #f5ebeb;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
+    box-shadow: 10px 0 10px rgba(0.5, 0.5, 0.5, 0.5);
+    max-width: 300px;
 }
   
 h1 {
@@ -53,20 +53,13 @@ div {
     margin-bottom: 15px;
 }
 
-
-  
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
 .input-box {
     background-color: rgb(183, 180, 180);
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 10px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align:center;
 } 
   
   
@@ -90,8 +83,9 @@ button {
   
 a {
     display: block;
-    text-align: center;
+    text-align:center;
     color: #ba9e47;
     text-decoration: none;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
   }
